@@ -1,3 +1,18 @@
+function criaPessoa(nome, idade) {
+  return {
+    nome: nome,
+    idade: idade,
+    andar: function () {
+      console.log(`${this.nome} está andando.`);
+    },
+  };
+}
+
+// Instâncias usando a factory function
+const pessoa1 = criaPessoa("Diego", 28);
+const pessoa2 = criaPessoa("Maria", 25);
+
+//Código Base para exercícios:
 var nome = "Diego";
 var idade = 26;
 var profissao = "Desenvolvedor Front-end";
@@ -22,9 +37,10 @@ console.log("JavaScript é 'super' fácil");
 console.log('JavaScript é "super" fácil');
 console.log(`JavaScript é "super" fácil"`);
 
-// Qual o resultado da seguinte expressão? 35
+// Qual o resultado da seguinte expressão? R: 35
 var total = 10 + (5 * 2) / 2 + 20;
 console.log(total);
+
 // Crie duas expressões que retornem NaN
 var divisao = "cinquenta" / 2;
 var frase = +frase;
