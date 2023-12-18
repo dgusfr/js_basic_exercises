@@ -1,17 +1,3 @@
-function criaPessoa(nome, idade) {
-  return {
-    nome: nome,
-    idade: idade,
-    andar: function () {
-      console.log(`${this.nome} está andando.`);
-    },
-  };
-}
-
-// Instâncias usando a factory function
-const pessoa1 = criaPessoa("Diego", 28);
-const pessoa2 = criaPessoa("Maria", 25);
-
 //Código Base para exercícios:
 var nome = "Diego";
 var idade = 26;

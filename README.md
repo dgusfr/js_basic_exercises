@@ -1,8 +1,10 @@
 # Exercícios Iniciante JavaScript
 
-Este repositório continua em desenvolvimento (Dez - 2023)
+Este repositório contém uma variedade de exercícios de JavaScript, abrangendo desde conceitos básicos, manipulação de DOM, até orientação a objetos. Aqui está uma visão geral do que cada parte do código aborda
 
-Este repositório contém uma variedade de exercícios de JavaScript, abrangendo desde conceitos básicos, manipulação de DOM, até orientação a objetos. Aqui está uma visão geral do que cada parte do código aborda:
+<p align="center">
+  <img src="img/proj1.png" alt="foto1">
+</p>
 
 ## [Fundamentos](#fundamentos)
 
